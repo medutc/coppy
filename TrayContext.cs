@@ -37,9 +37,10 @@ namespace coppy
 
             trayIcon.ContextMenuStrip.Items.Add("Exit", null, ExitApp);
             trayIcon.MouseClick += TrayIcon_MouseClick;
+            trayIcon.Icon = new Icon("coppyIcon.ico");
         }
 
-        private void TrayIcon_MouseClick(object sender, MouseEventArgs e)
+        private void TrayIcon_MouseClick(object? sender, MouseEventArgs e)
         {
             if (e.Button == MouseButtons.Left)
             {
@@ -96,7 +97,7 @@ namespace coppy
             }
         }
 
-        private void ExitApp(object sender, EventArgs e)
+        private void ExitApp(object? sender, EventArgs e)
         {
             trayIcon.Visible = false;
             Application.Exit();

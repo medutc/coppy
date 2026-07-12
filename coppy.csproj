@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <PackageReference Include="Tesseract" Version="5.2.0" />
+    <PackageReference Include="Tesseract.Drawing" Version="5.2.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -17,6 +18,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="coppyIcon.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Update="tessdata\eng.traineddata">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
