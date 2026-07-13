@@ -3,7 +3,21 @@ using System.Drawing;
 using System.IO;
 using System.Windows.Forms;
 using Tesseract;
+using Microsoft.Win32;
+using System;
 
+public void EnableStartup()
+{
+    // Opens the current user's startup registry key
+    using (RegistryKey key = Registry.CurrentUser.OpenSubKey(@"SOFTWARE\Microsoft\Windows\CurrentVersion\Run", true))
+    {
+        // Registers the exact path of your .exe to launch on boot
+        if (Environment.ProcessPath != null)
+        {
+            key?.SetValue("CoppyApp", Environment.ProcessPath);
+        }
+    }
+}
 namespace coppy
 {
     public class TrayContext : ApplicationContext
