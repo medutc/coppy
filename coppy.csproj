@@ -6,7 +6,12 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>coppyIcon.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="coppyIcon.ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Tesseract" Version="5.2.0" />
