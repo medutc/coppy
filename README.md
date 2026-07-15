@@ -1,3 +1,24 @@
+Coppy - Screen Text Extractor
+
+Coppy is a lightweight, system-tray utility for Windows that allows you to instantly extract text from any image, video, or unselectable document on your screen. Just click, drag, and the text is automatically copied to your clipboard.
+
+✨ Features
+✂️ Intuitive Selection: Click the tray icon and drag a box over the text you want to capture (just like selecting files on your desktop).
+
+⚡ Instant OCR: Powered by the Tesseract OCR engine for fast and accurate text recognition.
+
+📋 Auto-Clipboard: The moment you release the mouse, the extracted text is automatically copied to your Windows clipboard.
+
+🎓 Built-in Tutorial: Includes a quick-start tutorial that automatically appears on the first launch.
+
+🔌 Unobtrusive: Runs quietly in the system tray background without cluttering your taskbar.
+
+🛠️ Built With
+C# / .NET 10
+
+Windows Forms
+
+Tesseract OCR (Tesseract.NET)
 🚀 Installation & Setup
 1-Install the project folder
 
