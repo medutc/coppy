@@ -1,9 +1,9 @@
 🚀 Installation & Setup
-1-Install the coppyApp folder
+1-Install the project folder
 
-2-extract the downloaded folder
+2-Extract the downloaded folder
 
-3-click on the copp.exe file to dowload the app
+3-Enter to the coppyApp folder and click on the copp.exe file to dowload the app
 
 📖 How to Use
 1-Ensure the application is running. You will see the Coppy icon in your system tray (bottom right of your screen).
